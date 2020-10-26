@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d8173c-9ebe-4c06-bcc0-ef461e7348bd" name="Default Changelist" comment="" />
+    <list default="true" id="e4d8173c-9ebe-4c06-bcc0-ef461e7348bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/[12]整数转罗马数字.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +38,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hra9iaidauuyWMkqQl3Q9MU2Zl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,8 +59,11 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.[6]Z 字形变换.js">
-    <configuration name="[6]Z 字形变换.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/[6]Z 字形变换.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
+  <component name="RunManager" selected="Node.js.[12]整数转罗马数字.js">
+    <configuration name="[12]整数转罗马数字.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/[12]整数转罗马数字.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
+      <method v="2" />
+    </configuration>
+    <configuration name="[6]Z 字形变换.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/[6]Z 字形变换.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/test.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
@@ -40,7 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.[6]Z 字形变换.js" />
+        <item itemvalue="Node.js.[12]整数转罗马数字.js" />
         <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
@@ -64,38 +95,60 @@
       <workItem from="1601384901908" duration="1589000" />
       <workItem from="1601465264502" duration="1188000" />
       <workItem from="1602242752411" duration="1113000" />
-      <workItem from="1603457163598" duration="5185000" />
+      <workItem from="1603457163598" duration="5386000" />
+      <workItem from="1603716532210" duration="1880000" />
+      <workItem from="1603718489120" duration="621000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="105" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601017141894">
+    <state x="285" y="105" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603718192510">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state x="285" y="105" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1601017141894" />
+    <state x="285" y="105" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718192510" />
     <state x="611" y="205" key="FileChooserDialogImpl" timestamp="1602245938601">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="611" y="205" key="FileChooserDialogImpl/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1602245938601" />
-    <state width="539" height="215" key="GridCell.Tab.0.bottom" timestamp="1603462025217">
+    <state x="677" y="347" key="Github.ShareDialog" timestamp="1603462936242">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="215" key="GridCell.Tab.0.bottom/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603462025217" />
-    <state width="539" height="215" key="GridCell.Tab.0.center" timestamp="1603462025217">
+    <state x="677" y="347" key="Github.ShareDialog/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603462936242" />
+    <state x="292" y="154" key="Github.UntrackedFilesDialog" timestamp="1603462947070">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="215" key="GridCell.Tab.0.center/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603462025217" />
-    <state width="539" height="215" key="GridCell.Tab.0.left" timestamp="1603462025217">
+    <state x="292" y="154" key="Github.UntrackedFilesDialog/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603462947070" />
+    <state width="539" height="206" key="GridCell.Tab.0.bottom" timestamp="1603718412238">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="215" key="GridCell.Tab.0.left/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603462025217" />
-    <state width="539" height="215" key="GridCell.Tab.0.right" timestamp="1603462025217">
+    <state width="539" height="206" key="GridCell.Tab.0.bottom/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412238" />
+    <state width="539" height="206" key="GridCell.Tab.0.center" timestamp="1603718412237">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="215" key="GridCell.Tab.0.right/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603462025217" />
+    <state width="539" height="206" key="GridCell.Tab.0.center/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412237" />
+    <state width="539" height="206" key="GridCell.Tab.0.left" timestamp="1603718412237">
+      <screen x="62" y="0" width="1538" height="900" />
+    </state>
+    <state width="539" height="206" key="GridCell.Tab.0.left/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412237" />
+    <state width="539" height="206" key="GridCell.Tab.0.right" timestamp="1603718412238">
+      <screen x="62" y="0" width="1538" height="900" />
+    </state>
+    <state width="539" height="206" key="GridCell.Tab.0.right/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412238" />
     <state width="747" height="226" key="GridCell.Tab.1.bottom" timestamp="1601017143736">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
