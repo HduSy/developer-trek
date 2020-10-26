@@ -105,5 +105,19 @@ var intToRoman = function (num) {
     }
     return res
 };
+//另种更简洁的贪心写法
+intToRoman = function (num) {
+    let res = '', index = 0
+    let nums = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    let romans = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
+    while (index < 13) {
+        while (num >= nums[index]) {
+            res += romans[index]
+            num -= nums[index]
+        }
+        index++
+    }
+    return res
+}
 // console.log(intToRoman(1995))
 //leetcode submit region end(Prohibit modification and deletion)
