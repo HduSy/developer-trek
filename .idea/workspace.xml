@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4d8173c-9ebe-4c06-bcc0-ef461e7348bd" name="Default Changelist" comment="12-整数转罗马数字">
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[12]整数转罗马数字.js" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[12]整数转罗马数字.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +58,11 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.[12]整数转罗马数字.js">
-    <configuration name="[12]整数转罗马数字.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/[12]整数转罗马数字.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
+  <component name="RunManager" selected="Node.js.[17]电话号码的字母组合.js">
+    <configuration name="[12]整数转罗马数字.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/[12]整数转罗马数字.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
+      <method v="2" />
+    </configuration>
+    <configuration name="[17]电话号码的字母组合.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
       <method v="2" />
     </configuration>
     <configuration name="[6]Z 字形变换.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode/editor/cn/[6]Z 字形变换.js" working-dir="$PROJECT_DIR$/leetcode/editor/cn">
@@ -68,7 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.[12]整数转罗马数字.js" />
+        <item itemvalue="Node.js.[17]电话号码的字母组合.js" />
         <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
@@ -94,7 +99,8 @@
       <workItem from="1602242752411" duration="1113000" />
       <workItem from="1603457163598" duration="5386000" />
       <workItem from="1603716532210" duration="1880000" />
-      <workItem from="1603718489120" duration="1510000" />
+      <workItem from="1603718489120" duration="1643000" />
+      <workItem from="1603801858209" duration="3143000" />
     </task>
     <task id="LOCAL-00001" summary="12-整数转罗马数字">
       <created>1603719176960</created>
@@ -103,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603719176960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="12-整数转罗马数字">
+      <created>1603720384392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603720384392</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,22 +155,22 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="292" y="154" key="Github.UntrackedFilesDialog/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603462947070" />
-    <state width="539" height="206" key="GridCell.Tab.0.bottom" timestamp="1603718412238">
+    <state width="1494" height="149" key="GridCell.Tab.0.bottom" timestamp="1603803869022">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="206" key="GridCell.Tab.0.bottom/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412238" />
-    <state width="539" height="206" key="GridCell.Tab.0.center" timestamp="1603718412237">
+    <state width="1494" height="149" key="GridCell.Tab.0.bottom/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603803869022" />
+    <state width="1494" height="149" key="GridCell.Tab.0.center" timestamp="1603803869022">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="206" key="GridCell.Tab.0.center/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412237" />
-    <state width="539" height="206" key="GridCell.Tab.0.left" timestamp="1603718412237">
+    <state width="1494" height="149" key="GridCell.Tab.0.center/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603803869022" />
+    <state width="1494" height="149" key="GridCell.Tab.0.left" timestamp="1603803869022">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="206" key="GridCell.Tab.0.left/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412237" />
-    <state width="539" height="206" key="GridCell.Tab.0.right" timestamp="1603718412238">
+    <state width="1494" height="149" key="GridCell.Tab.0.left/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603803869022" />
+    <state width="1494" height="149" key="GridCell.Tab.0.right" timestamp="1603803869022">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state width="539" height="206" key="GridCell.Tab.0.right/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603718412238" />
+    <state width="1494" height="149" key="GridCell.Tab.0.right/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603803869022" />
     <state width="747" height="226" key="GridCell.Tab.1.bottom" timestamp="1601017143736">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
@@ -214,9 +227,9 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="156" y="85" width="1191" height="711" key="SettingsEditor/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1600778234770" />
-    <state x="423" y="183" key="Vcs.Push.Dialog.v2" timestamp="1603719201865">
+    <state x="423" y="183" key="Vcs.Push.Dialog.v2" timestamp="1603720385606">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state x="423" y="183" key="Vcs.Push.Dialog.v2/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603719201865" />
+    <state x="423" y="183" key="Vcs.Push.Dialog.v2/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603720385606" />
   </component>
 </project>
