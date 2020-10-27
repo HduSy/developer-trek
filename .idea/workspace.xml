@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d8173c-9ebe-4c06-bcc0-ef461e7348bd" name="Default Changelist" comment="12-整数转罗马数字">
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="e4d8173c-9ebe-4c06-bcc0-ef461e7348bd" name="Default Changelist" comment="17-电话号码的字母组合">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.js" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <workItem from="1603457163598" duration="5386000" />
       <workItem from="1603716532210" duration="1880000" />
       <workItem from="1603718489120" duration="1643000" />
-      <workItem from="1603801858209" duration="3143000" />
+      <workItem from="1603801858209" duration="4976000" />
     </task>
     <task id="LOCAL-00001" summary="12-整数转罗马数字">
       <created>1603719176960</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603720384392</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="17-电话号码的字母组合">
+      <created>1603805216358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603805216358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12-整数转罗马数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="12-整数转罗马数字" />
+    <MESSAGE value="17-电话号码的字母组合" />
+    <option name="LAST_COMMIT_MESSAGE" value="17-电话号码的字母组合" />
   </component>
   <component name="WindowStateProjectService">
     <state x="285" y="105" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603718192510">
@@ -227,9 +233,9 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="156" y="85" width="1191" height="711" key="SettingsEditor/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1600778234770" />
-    <state x="423" y="183" key="Vcs.Push.Dialog.v2" timestamp="1603720385606">
+    <state x="423" y="183" key="Vcs.Push.Dialog.v2" timestamp="1603805218576">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state x="423" y="183" key="Vcs.Push.Dialog.v2/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603720385606" />
+    <state x="423" y="183" key="Vcs.Push.Dialog.v2/62.0.1538.900/1600.0.1024.728@62.0.1538.900" timestamp="1603805218576" />
   </component>
 </project>

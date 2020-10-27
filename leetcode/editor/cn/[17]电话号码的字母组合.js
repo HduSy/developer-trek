@@ -45,4 +45,51 @@ var letterCombinations = function (digits) {
     return tmp[0]
 };
 // console.log(letterCombinations('23'))
+//递归解法
+var letterCombinations = function (digits) {
+    if (!digits) return []
+    let strs = {
+        '2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'
+    }
+    let res = []
+    let dfs = (curStr, i) => {
+        if (i > digits.length - 1) {
+            res.push(curStr)
+            return
+        }
+        const letters = strs[digits[i]]
+        for (let char of letters) {
+            dfs(curStr + char, i + 1)
+        }
+    }
+    dfs('', 0)
+    return res
+};
+//回溯法-参考labuladong-p253回溯法解题模板
+var letterCombinations = function (digits) {
+    if (!digits) return []
+    let strs = {
+        '2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'
+    }
+    let combinations = [], combination = []
+    let backtrack = (index) => {
+        // if 满足结束条件 保存结果并return
+        if (index === digits.length) {
+            combinations.push(combination.join(''))
+        } else {
+            let digit = digits[index]
+            // for 选择 of 选择列表
+            for (let char of strs[digit]) {
+                // 做选择
+                combination.push(char)
+                // 递归调用backtrack(选择,选择列表)
+                backtrack(index + 1)
+                // 取消选择
+                combination.pop()
+            }
+        }
+    }
+    backtrack(0)
+    return combinations
+};
 //leetcode submit region end(Prohibit modification and deletion)
