@@ -27,10 +27,30 @@ var minAddToMakeValid = function(s) {
   return result
 };
 
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var minAddToMakeValid = function(s) {
+  // 分别代表孤独的左括号和孤独的右括号
+  let leftLonely = 0
+  let rightLonely = 0
+  for (let i = 0; i < s.length; i++) {
+    if(s[i] === '(') leftLonely++
+    else {
+      if(leftLonely>0) {
+        leftLonely-- // 去掉一个left
+      } else {
+        rightLonely++
+      }
+    }
+  }
+  return leftLonely + rightLonely
+}
 
-((()())(
-()()()()()() 4
-((()()))() 2
+// ((()())(
+// ()()()()()() 4
+// ((()()))() 2
 /**
  * @param {string} s
  * @return {number}
