@@ -27,6 +27,8 @@ function shallowCopy(obj) {
 // 简单递归
 function deepCopy(obj, visited = new WeakMap()) {
   if(typeof obj !== 'object' || obj === null) return obj
+  if(obj instanceof RegExp) return new RegExp(obj)
+  if(obj instanceof Date) return new Date(obj)
   // 检查是否已访问过该对象，如果是则返回已拷贝的对象，避免无限递归
   if(visited.has(obj)) return visited.get(obj)
   let result = Array.isArray(obj) ? []:{}
@@ -187,4 +189,26 @@ function clone(target, map = new WeakMap()) {
     });
 
     return cloneTarget;
+}
+
+// 默写
+/**
+ * 
+ * @param target 深拷贝目标
+ * @param visited 记录访问值，防止循环引用
+ * @returns 
+ */
+function deepClone(target, visited = new WeakMap()) {
+  if(typeof target !== 'object' || target === null) return target
+  if(target instanceof RegExp) return new RegExp(target)
+  if(target instanceof Date) return new Date(target)
+  if(visited.has(target)) return visited.get(target)
+  let result = new target.constructor() // 原型上的构造函数
+  visited.set(target, result)
+  for(let k in result) {
+    if(result.hasOwnProperty(k)) {
+      result[k] = deepClone(target[k], visited)
+    }
+  }
+  return result
 }

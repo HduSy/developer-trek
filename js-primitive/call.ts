@@ -6,7 +6,7 @@
 // func.call(this, ...args)
 // @ts-ignore
 Function.prototype.myCall = function(context=window, ...args) {
-  if(this == Function.prototype) return undefined // func.myCall() -> Function.prototype.myCall() 调用
+  if(this == Function.prototype) return undefined // Function.prototype.myCall() 函数原型直接调用
   context = context||window
   const fn = Symbol() // 保证属性不重名
   context[fn] = this // this作为myCall调用者指向当前函数

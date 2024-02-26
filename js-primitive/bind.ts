@@ -5,7 +5,11 @@
  */
 // @ts-ignore
 Function.prototype.myBind = function (context,...args1) {
-  if (this === Function.prototype) {
+  if (this === Function.prototype) { // 函数原型直接调用 Function.prototype.myBind()
+    return function F() {
+      // [native code]
+      return undefined
+    }
     throw new TypeError('Error')
   }
   const _this = this

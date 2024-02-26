@@ -7,6 +7,7 @@ function currying(fn: Function, ...args1) {
   if(args1.length >= fn.length) {
     return fn(...args1)
   } else {
+    // 闭包
     return (...args2) => currying(fn, ...args1, ...args2)
   }
 }

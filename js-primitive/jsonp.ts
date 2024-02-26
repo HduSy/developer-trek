@@ -1,3 +1,12 @@
+/**
+ * 利用了允许静态js、css资源跨域原理
+ * 
+ * 浏览器将返回一个url里拼接的同名请求参数callback
+ * 且该callback参数为服务端处理后的数据res
+ * 响应MIME类型为javascript/text
+ * 浏览器收到相应后，识别到类型立即执行
+ * 而客户端已注册了该回调，拿到res
+ */
 (function(window, document) {
   const jsonp = (url: string, data, callback) => {
     // 1、拼接url data参数，将传入的data数据转化为url字符串形式，如 {id:1,name:'jack'} => id=1&name=jack

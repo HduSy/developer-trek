@@ -6,7 +6,7 @@
 /**
  * 三种状态：pending、resolved、rejected
  * 两种状态转换：pending->resolved、pending->rejected
- * 一个参数：exacutor = (resolve, reject) => {}
+ * 一个参数：exacutor = (resolve, reject) => {} resolve改变为fullfilled状态并传值，reject改变为rejected状态并传原因
  * resolve的value，reject的reason
  */
 
