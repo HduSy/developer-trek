@@ -10,7 +10,7 @@ Function.prototype.myBind = function (context,...args1) {
       // [native code]
       return undefined
     }
-    throw new TypeError('Error')
+    // throw new TypeError('Error')
   }
   const _this = this
   return function F(...args2) {
