@@ -16,3 +16,5 @@ var isPerfectSquare = function(num) {
   }
   return false
 };
+
+// 自解
