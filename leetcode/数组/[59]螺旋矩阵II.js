@@ -44,6 +44,7 @@ var generateMatrix = function(n) {
 
     startX++
     startY++
+    offset++
   }
   if(n % 2 === 1) {
     res[mid][mid] = count
