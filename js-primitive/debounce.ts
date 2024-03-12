@@ -20,7 +20,7 @@ function debounce(event, time, flag) {
   let timer = null;
   return function (...args) {
     clearTimeout(timer);
-    if (flag && !timer) {
+    if (flag && !timer) { // flag 只会在首次发挥作用，后续 timer 都不为 null
       event.apply(this, args);
     }
     timer = setTimeout(() => {
