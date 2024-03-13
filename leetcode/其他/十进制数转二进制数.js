@@ -7,4 +7,6 @@ function Decimal2Binary(num) {
     result = remainder + result
   }
   const nativeTrans = num.toString(2)
+  console.log('函数转换结果：', result)
+  console.log('原生转换结果：', nativeTrans)
 }
